@@ -1,0 +1,211 @@
+html {
+    font-size: 100%
+}
+
+body {
+    background-color: #F6F5F5;
+}
+
+
+h1{
+    color: #88B319;
+    font-family: 'Sacramento', cursive;
+    font-size: 3.5rem;
+    /**line-height: 2; **/
+    padding-bottom: 30px;
+}
+
+h2 {
+    color: #88B319;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: dotted #DDDDDD 6px;
+    border-bottom: none;
+    margin: 50px auto;
+    width: 4%;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.main {
+    padding: 30px;
+}
+
+.bottom-container {
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+.buttons {
+   display: block;
+   padding-bottom: 15px;
+   padding-right: 5px;
+}
+
+.page-content {
+    text-align: center;
+    margin: 0px auto 0px auto;
+    max-width: 100%;
+}
+
+.logo {
+    margin: 0px auto 0px auto;
+    background-color: #F6F5F5;
+    padding-bottom: 40px;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.fb {
+    width: 3%;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+.maps {
+    width: 3%;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.grub {
+    width: 3%;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+ .icons {
+    margin: 10px 10px 10px 10px;
+    width: 25%; width: 50px; height: 50px;
+}
+
+
+
+.btn {
+  background: #487412;
+  background-image: -webkit-linear-gradient(top, #487412, #487412);
+  background-image: -moz-linear-gradient(top, #487412, #487412);
+  background-image: -ms-linear-gradient(top, #487412, #487412);
+  background-image: -o-linear-gradient(top, #487412, #487412);
+  background-image: linear-gradient(to bottom, #487412, #487412);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 7.5px 15px 7.5px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #5C8D89;
+  background-image: -webkit-linear-gradient(top, #5C8D89, #5C8D89);
+  background-image: -moz-linear-gradient(top, #5C8D89, #5C8D89);
+  background-image: -ms-linear-gradient(top, #5C8D89, #5C8D89);
+  background-image: -o-linear-gradient(top, #5C8D89, #5C8D89);
+  background-image: linear-gradient(to bottom, #5C8D89, #5C8D89);
+  text-decoration: none;
+}
+
+.btn2 {
+  background: #FAD719;
+  background-image: -webkit-linear-gradient(top, #FAD719, #FAD719);
+  background-image: -moz-linear-gradient(top, #FAD719, #FAD719);
+  background-image: -ms-linear-gradient(top, #FAD719, #FAD719);
+  background-image: -o-linear-gradient(top, #FAD719, #FAD719);
+  background-image: linear-gradient(to bottom, #FAD719, #FAD719);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 7.5px 15px 7.5px 15px;
+  text-decoration: none;   
+}
+
+.btn2:hover {
+  background: #FFE5B9;
+  background-image: -webkit-linear-gradient(top, #FFE5B9, #FFE5B9);
+  background-image: -moz-linear-gradient(top, #FFE5B9, #FFE5B9);
+  background-image: -ms-linear-gradient(top, #FFE5B9, #FFE5B9);
+  background-image: -o-linear-gradient(top, #FFE5B9, #FFE5B9);
+  background-image: linear-gradient(to bottom, #FFE5B9, #FFE5B9);
+  text-decoration: none;
+}
+
+.btn3 {
+  background: #88B319;
+  background-image: -webkit-linear-gradient(top, #88B319, #88B319);
+  background-image: -moz-linear-gradient(top, #88B319, #88B319);
+  background-image: -ms-linear-gradient(top, #88B319, #88B319);
+  background-image: -o-linear-gradient(top, #88B319, #88B319);
+  background-image: linear-gradient(to bottom, #88B319, #88B319);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 7.5px 15px 7.5px 15px;
+  text-decoration: none;
+}
+
+.btn3:hover {
+  background: #CEE5D0;
+  background-image: -webkit-linear-gradient(top, #CEE5D0, #CEE5D0);
+  background-image: -moz-linear-gradient(top, #CEE5D0, #CEE5D0);
+  background-image: -ms-linear-gradient(top, #CEE5D0, #CEE5D0);
+  background-image: -o-linear-gradient(top, #CEE5D0, #CEE5D0);
+  background-image: linear-gradient(to bottom, #CEE5D0, #CEE5D0);
+  text-decoration: none;
+}
+
+
+.home {
+  background: #D9F3F5;
+  background-image: -webkit-linear-gradient(top, #A5B319, #A5B319);
+  background-image: -moz-linear-gradient(top, #A5B319, #A5B319);
+  background-image: -ms-linear-gradient(top, #A5B319, #A5B319);
+  background-image: -o-linear-gradient(top, #A5B319, #A5B319);
+  background-image: linear-gradient(to bottom, #A5B319, #A5B319);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 7.5px 15px 7.5px 15px;
+  text-decoration: none;
+}
+
+.home:hover {
+  background: #A5D6F5;
+  background-image: -webkit-linear-gradient(top, #A5D6F5, #A5D6F5);
+  background-image: -moz-linear-gradient(top, #A5D6F5, #A5D6F5);
+  background-image: -ms-linear-gradient(top, #A5D6F5, #A5D6F5);
+  background-image: -o-linear-gradient(top, #A5D6F5, #A5D6F5);
+  background-image: linear-gradient(to bottom, #A5D6F5, #A5D6F5);
+  text-decoration: none;
+}
